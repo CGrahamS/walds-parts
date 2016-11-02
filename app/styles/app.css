@@ -11,3 +11,16 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.product-link {
+  color: #000;
+}
+
+.product-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.product-tile:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
