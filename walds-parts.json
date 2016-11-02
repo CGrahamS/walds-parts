@@ -4,7 +4,7 @@
     "price": "39.95",
     "stock": "875",
     "rating": "5 Stars",
-    "image": "./assets/images/watto.png"
+    "image": "/assets/images/watto.png"
   },
   {
     "name": "Hyperdrive",
@@ -12,14 +12,14 @@
     "price": "1,000.00",
     "stock": "1",
     "rating": "5 Stars",
-    "image": "./assets/images/hyperdrive.jpg"
+    "image": "/assets/images/hyperdrive.jpg"
   },
   {
-    "name": "Repair Droid",
+    "name": "Pitt Droid",
     "description": "A droid that's only point in life is to repair broken things. Tends towards existential crises.",
     "price": "800",
     "stock": "5",
     "rating": "3 Stars",
-    "image": "./assets/images/pitt-droid.jpg"
+    "image": "/assets/images/pitt-droid.jpg"
   }]
 }

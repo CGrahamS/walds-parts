@@ -2,6 +2,12 @@ body {
   padding-top: 3em;
 }
 
+.product-tile {
+  text-align: center;
+}
+
 .product-tile img {
-  height: 200px;
+  height: 20em;
+  display: block;
+  margin: 0 auto;
 }

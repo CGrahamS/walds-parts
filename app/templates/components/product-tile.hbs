@@ -1,4 +1,8 @@
+{{#link-to 'product' product.id}}
 <div class="well product-tile">
   <h3>{{product.name}}</h3>
   <img src={{product.image}} alt="picture of {{product.name}}" class="img-responsive"/>
+  <h5>{{product.price}}</h5>
+  <h5>{{product.rating}}</h5>
 </div>
+{{/link-to}}
