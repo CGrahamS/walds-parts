@@ -2,11 +2,13 @@
   <div class="col-md-6 col-md-offset-3">
     <h3>Your Cart:</h3>
     <div class="well">
+      {{log shoppingCart.items}}
       {{#each shoppingCart.items as |item|}}
       <h4> {{item.name}} | <img src="/assets/images/credit.png" alt="credit" class="credit"/> {{item.price}}</h4>
       {{/each}}
       <hr>
-      <h4>Total: </h4>
+      {{log "Shopping Cart: " shoppingCart.total}}
+      <h4>Total: {{shoppingCart.total}}</h4>
     </div>
   </div>
 </div>

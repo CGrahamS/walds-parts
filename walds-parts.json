@@ -1,7 +1,7 @@
 { "products": [{
     "name": "The Stereotype Blaster 5000",
     "description": "This puppy will blast the farts right out of you!",
-    "price": "39.95",
+    "price": 39.95,
     "stock": "875",
     "rating": "5 Stars",
     "image": "/assets/images/watto.png"
@@ -9,7 +9,7 @@
   {
     "name": "Hyperdrive",
     "description": "Assists in space travel",
-    "price": "1,000.00",
+    "price": 1000.00,
     "stock": "1",
     "rating": "5 Stars",
     "image": "/assets/images/hyperdrive.jpg"
@@ -17,7 +17,7 @@
   {
     "name": "Pitt Droid",
     "description": "A droid that's only point in life is to repair broken things. Tends towards existential crises.",
-    "price": "800",
+    "price": 800,
     "stock": "5",
     "rating": "3 Stars",
     "image": "/assets/images/pitt-droid.jpg"
