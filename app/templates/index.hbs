@@ -1,7 +1,14 @@
 <div class="row">
-  {{#each model as |product|}}
+  <li><button {{action 'adminLogIn'}} class='btn'>Login</button></li>
+  {{log "Admin Portal Status: " model.adminLog.isAdmin}}
+  {{#if model.adminLog.isAdmin}}
+    <h1>HI!</h1>
+  {{else}}
+    <h1>NO!</h1>
+  {{/if}}
+  {{#each model.products as |product|}}
     <div class="col-md-6">
       {{product-tile product=product}}
-    </div>  
+    </div>
   {{/each}}
 </div>
