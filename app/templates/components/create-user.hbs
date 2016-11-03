@@ -1,9 +1,6 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      {{#each model as |admin|}}
-        <h3>{{admin.username}}</h3>
-      {{/each}}
       <form>
         <div class="form-group">
           <label for="username">Enter Username:</label>
@@ -13,7 +10,7 @@
           <label for="password">Enter Password:</label>
           {{input value=password id="password" class="form-control"}}
         </div>
-        <button {{action 'saveUser'}}>Submit</button>
+        <button class="btn" {{action 'saveUser'}}>Submit</button>
       </form>
     </div>
   </div>

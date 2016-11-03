@@ -1,10 +1,16 @@
 <div class="row">
   {{log "Admin Portal Status: " model.adminLog.isAdmin}}
+  <button {{action 'adminLogIn'}} class="btn">Admin Login</button>
   {{#if model.adminLog.isAdmin}}
-    <h1>HI!</h1>
-  {{else}}
-    <h1>NO!</h1>
+    <h3>Inventory:</h3>
+    <ul>
+      {{#each model.products as |product|}}
+        {{inventory-tile product=product}}
+      {{/each}}
+    </ul>
   {{/if}}
+</div>
+<div class="row">
   {{#each model.products as |product|}}
     <div class="col-md-6">
       {{product-tile product=product}}
