@@ -1,5 +1,6 @@
 {{#link-to 'product' product.id class="product-link"}}
 <div class="well product-tile">
+  {{low-stock product}}
   <h3>{{product.name}}</h3>
   <img src={{product.image}} alt="picture of {{product.name}}" class="img-responsive product-img"/>
   <h4><img src="/assets/images/credit.png" alt="credit" class="credit"/>{{product.price}}</h4>
